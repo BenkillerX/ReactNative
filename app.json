@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "ReactNative",
-    "slug": "ReactNative",
+    "slug": "food-app-rfe-sadp2jvdjrpnqclmd",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -34,11 +34,22 @@
             "imageWidth": 76
           }
         }
-      ]
+      ],
+      "expo-font",
+      "expo-image",
+      "expo-status-bar",
+      "expo-web-browser"
     ],
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "96b1efc3-c236-4b6a-9037-2c4928b481c9"
+      }
+    },
+    "owner": "signalhaive"
   }
 }
